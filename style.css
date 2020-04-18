@@ -1,0 +1,162 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    background-color: black;
+}
+
+#h1-header {
+    text-align: start;
+    text-decoration: solid;
+    color: whitesmoke;
+    font-size: 120px;
+    margin-left: 40px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-variant-ligatures: contextual;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    text-align: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.td1 {
+    width: 40vw;
+    padding: 15px;
+    text-align: left;
+    color: tomato;
+    text-decoration: solid;
+    text-emphasis-style: bold;
+}
+
+.td2 {
+    width: 60vw;
+    text-align: left;
+    padding: 15px;
+}
+
+header {
+    background-image: url(sam2.jpg);
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-color: rgba(19, 17, 17, 0.849);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.h1-categories {
+    text-align: center;
+    text-decoration: solid;
+    color: whitesmoke;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 5px;
+}
+
+#bio-data,
+#interests,
+#summary,
+footer,
+#skills,
+#hobbies,
+#interest,
+#contact {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(53, 53, 53);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bio-data {
+    background-image: url(Know-Your-Customer.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    color: white;
+    background-size: cover;
+    background-color: rgba(27, 26, 26, 0.945);
+    background-blend-mode: multiply;
+}
+
+#hobbies {
+    background-image: url(hobbies.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    color: white;
+    background-size: cover;
+    background-color: rgba(27, 26, 26, 0.945);
+    background-blend-mode: multiply;
+}
+
+ul {
+    width: 60vw;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+li {
+    margin-bottom: 0px;
+}
+
+#interests {
+    background-image: url(code.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    color: white;
+    background-size: cover;
+    background-color: rgba(27, 26, 26, 0.945);
+    background-blend-mode: multiply;
+}
+
+#skills {
+    background-image: url(skills-for-resume.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    color: white;
+    background-size: cover;
+    background-color: rgba(27, 26, 26, 0.945);
+    background-blend-mode: multiply;
+}
+
+#summary {
+    background-image: url(Summary-feature-size.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    color: white;
+    background-size: cover;
+    background-color: rgba(27, 26, 26, 0.945);
+    background-blend-mode: multiply;
+}
+
+footer {
+    background-image: url(banner20.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    color: white;
+    background-size: cover;
+    background-color: rgba(27, 26, 26, 0.945);
+    background-blend-mode: multiply;
+}
+
+#form {}
