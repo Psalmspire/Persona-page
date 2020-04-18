@@ -1,14 +1,13 @@
 body {
     position: relative;
     min-height: 100vh;
-    background-color: black;
 }
 
 #h1-header {
     text-align: start;
     text-decoration: solid;
     color: whitesmoke;
-    font-size: 120px;
+    font-size: 7vw;
     margin-left: 40px;
     margin-top: 200px;
     margin-bottom: 0px;
@@ -51,8 +50,6 @@ header {
     flex-direction: column;
     color: white;
     justify-content: center;
-    border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 80px;
 }
 
 .h1-categories {
