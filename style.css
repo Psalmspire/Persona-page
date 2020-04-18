@@ -159,4 +159,70 @@ footer {
     background-blend-mode: multiply;
 }
 
-#form {}
+.label {
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 60vh;
+    border-color: mediumblue;
+    border-radius: 40px;
+    border-style: solid;
+}
+
+.input-fields {
+    display: block;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+hr {
+    background-color: blanchedalmond;
+    width: 30vw;
+    margin: 0px;
+}
+
+#button {
+    background-color: rgb(106, 1, 177);
+    color: rgb(251, 251, 251);
+    padding: 15px 0px 15px 0px;
+    border-block-end-color: lightcoral;
+    border-style: hidden;
+    width: 270px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    margin: 8px;
+    padding: 10px;
+}
+
+p {
+    text-align: left;
+}
+
+::placeholder {
+    margin-left: 15px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: inherit;
+    width: 60vw;
+}
+
+.p_summary {
+    text-align: justify;
+    font-size: 25px;
+}
